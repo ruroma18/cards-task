@@ -6,7 +6,6 @@
 
 .card-container {
   font-size: 0;
-  margin: 300px 100px;
 }
 
 .first-card-container,
@@ -15,8 +14,7 @@
   display: inline-block;
   position: relative;
   width: 30%;
-  height: 30%;
-  margin-right: 20px;
+  margin: 20px;
   border-radius: 5%;
 }
 
@@ -50,7 +48,7 @@
   margin: 10%;
 }
 
-.middle-card-text {
+.card-num {
   font-size: 40px;
   font-weight: 800;
   margin: 10% 0;
