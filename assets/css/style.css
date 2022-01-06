@@ -65,22 +65,21 @@
 
 .first-circle,
 .second-circle {
+  position: absolute;
   width: 40%;
   height: 70%;
-  position: absolute;
   border-radius: 50%;
   background-color: white;
   opacity: 0.5;
+  z-index: 0;
 }
 
 .first-circle {
   top: 0;
   left: 75%;
-  z-index: 0;
 }
 
 .second-circle {
   top: 50%;
   left: 65%;
-  z-index: 0;
 }
