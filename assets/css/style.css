@@ -6,21 +6,21 @@
 
 .card-container {
   font-size: 0;
-  margin: 15% 10%;
+  margin: 300px 100px;
 }
 
-.pink-card-container,
-.blue-card-container,
-.green-card-container {
+.first-card-container,
+.second-card-container,
+.third-card-container {
   display: inline-block;
   position: relative;
   width: 30%;
   height: 30%;
-  margin-right: 2%;
+  margin-right: 20px;
   border-radius: 5%;
 }
 
-.pink-card-container {
+.first-card-container {
   background: linear-gradient(
     90deg,
     rgba(254, 192, 152, 1) 23%,
@@ -28,7 +28,7 @@
   );
 }
 
-.blue-card-container {
+.second-card-container {
   background: linear-gradient(
     90deg,
     rgba(139, 200, 245, 1) 23%,
@@ -36,7 +36,7 @@
   );
 }
 
-.green-card-container {
+.third-card-container {
   background: linear-gradient(
     90deg,
     rgba(126, 217, 210, 1) 23%,
