@@ -61,23 +61,33 @@
   right: 10%;
 }
 
-.first-circle,
-.second-circle {
+.first-card-container::before,
+.second-card-container::before,
+.third-card-container::before {
   position: absolute;
+  content: "";
   width: 40%;
   height: 70%;
+  top: 0;
+  left: 75%;
   border-radius: 50%;
   background-color: white;
   opacity: 0.5;
   z-index: 0;
 }
 
-.first-circle {
-  top: 0;
-  left: 75%;
-}
-
-.second-circle {
+.first-card-container::after,
+.second-card-container::after,
+.third-card-container::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 70%;
   top: 50%;
   left: 65%;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 0;
 }
+
