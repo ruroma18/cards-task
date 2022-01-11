@@ -16,6 +16,7 @@
   width: 30%;
   margin: 20px;
   border-radius: 5%;
+  overflow: hidden;
 }
 
 .first-card-container {
